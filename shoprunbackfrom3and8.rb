@@ -1,0 +1,1 @@
+puts (Array (1..100)).map{|item| item % 3 == 0 ? (item % 8 == 0 ? 'ShopRunBack' : 'Shop') : (item % 8 == 0 ? 'RunBack' : item)}
